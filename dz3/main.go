@@ -4,8 +4,8 @@ import (
 	"fmt"
 )
 
-type Celsium float64
-type Kelvin float64
+type Celsium = float64
+type Kelvin = float64
 
 func CelsiumToKelvin(cel Celsium) Kelvin {
 	return Kelvin(cel + 273.15)
